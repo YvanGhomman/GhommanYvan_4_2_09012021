@@ -516,7 +516,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -1040,4 +1040,22 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.text-img--1{
+    font-size: 22px;
+}
+.text-img--italic{
+    font-size: 20px;
+    font-style: italic;
+}
+.text-img--legend{
+    font-size: 14px;
+    line-height: 0px;
+}
+.bold-strong{
+    font-weight:550;
+}
+.text-description{
+    font-size: 12px;
 }
