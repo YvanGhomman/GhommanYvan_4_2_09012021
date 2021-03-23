@@ -401,6 +401,10 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .form{
+        display: block;
+        justify-content: center;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -781,7 +785,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1062,7 +1066,7 @@ h4 {
     font-weight:550;
 }
 .text-description{
-    font-size: 12px;
+    font-size: 14px;
     width: 75%;
     position: relative;
     margin-right: auto;
@@ -1094,3 +1098,23 @@ h4 {
     margin-right: auto;
 }
 }
+.contact{
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: #000000 !important;
+    margin: 20px;
+}
+
+.footer-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.linkfoot{
+    width: 200px;
+}
+
+
