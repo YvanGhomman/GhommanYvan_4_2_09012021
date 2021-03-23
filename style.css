@@ -1063,4 +1063,34 @@ h4 {
 }
 .text-description{
     font-size: 12px;
+    width: 75%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.center{
+    width: 75%;
+}
+@media (max-width: 767px) {
+    .center{
+        width: 100%;
+    }
+}
+.bloc-centr{
+    display: flex;
+    justify-content: center;
+}
+.bttn{
+    position: relative;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+@media (max-width: 767px) {
+.center-down{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
