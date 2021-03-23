@@ -302,9 +302,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
+    width: auto;
 }
 
 .navbar-brand img[src$=svg] {
@@ -728,6 +729,8 @@ h3 {
 
 h1 {
     color: #333333!important;
+    font-size: 40px !important;
+    font-weight: bold;
 }
 
 h4 {
@@ -967,7 +970,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1115,6 +1118,14 @@ h4 {
 }
 .linkfoot{
     width: 200px;
+}
+
+.logo-chouette{
+    width: 100px;
+    height: auto;
+}
+.black{
+    color: #000000 !important;
 }
 
 
