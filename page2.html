@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="entreprise, agence, webdesign, web design, Lyon, lyon">
     <meta name="description" content="La chouette agence, agence web design à Lyon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -48,7 +47,7 @@
 							<a href="index.html">Accueil</a>
 						</li>
 						<li>
-							<a href="page2.html">Contact</a>
+							<a href="#bloc-7">Formulaire de contact</a>
 						</li>
 					</ul>
 				</div>
@@ -60,7 +59,7 @@
 
 <!-- bloc-6 -->
 <main>
-	<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+	<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper " id="bloc-6">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12">
@@ -87,24 +86,24 @@
 							<label>
 								Nom
 							</label>
-							<input id="name" class="form-control" required />
+							<input id="nom" aria-labelledby="nom" placeholder="Sylvain DUPONT" class="form-control" required />
 						</div>
 						<div class="form-group">
 							<label>
 								Adresse email
 							</label>
-							<input id="email" class="form-control" type="email" required />
+							<input id="email" aria-labelledby="email" placeholder="sylvain.dupont@gmail.com"  class="form-control" type="email" required />
 						</div>
 						<div class="form-group">
 							<label>
 								Comment nous avez-vous connu ?
 							</label>
-							<input class="form-control" type="text" required id="input_504" />
+							<input class="form-control" aria-labelledby="découverte" placeholder="réseau social, newsletters, ..."  type="text" required id="découverte" />
 						</div>
 						<div class="form-group">
 							<label>
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</label><textarea id="message" placeholder="Mon projet est de ..."  aria-labelledby="message" class="form-control" rows="4" cols="50" required></textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
@@ -128,54 +127,41 @@
 
 <!-- Footer - bloc-8 -->
 <footer>
-	<section class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+	<section class="bloc bgc-atomic-tangerine d-bloc " id="bloc-8">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="text-center black text-description">
+					<p class="text-center white text-description">
 						<span class=bold-strong>La chouette agence - Agence web basée à Lyon</span>
 					</p>
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3 col-xs-3">
 							<div class="text-center">
-								<a class="social" href="https://twitter.com/?lang=fr" alt="Retrouvez-nous sur Twitter"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social" href="https://twitter.com/?lang=fr" title="Retrouvez-nous sur Twitter"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3 col-xs-3">
 							<div class="text-center">
-								<a class="social" href="https://www.facebook.com/" alt="Retrouvez-nous sur Facebook"><span class="fa fa-facebook icon-md"></span></a>
+								<a class="social" href="https://www.facebook.com/" title="Retrouvez-nous sur Facebook"><span class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3 col-xs-3">
 							<div class="text-center">
-								<a class="social" href="https://dribbble.com/" alt="Retrouvez-nous sur Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
+								<a class="social" href="https://dribbble.com/" title="Retrouvez-nous sur Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3 col-xs-3">
 							<div class="text-center">
-								<a class="social" href="https://www.instagram.com/?hl=fr" alt="Retrouvez-nous sur Instagram"><span class="fa fa-instagram icon-md"></span></a>
+								<a class="social" href="https://www.instagram.com/?hl=fr" title="Retrouvez-nous sur Instagram"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 					</div>
-					<div class="footer-link black">
-						<div class="linkfoot">
-							Partenaires
-								<ul>
-									<li><a class="black" href="voiture.com">voiture.com</a></li>
-									<li><a class="black"  href="pizza.com">pizza.com</a></li>
-									<li><a class="black" href="matoiture.com">matoiture.com</a></li>
-									<li><a class="black" href="immobilierseo.com">immobilierseo.com</a></li>
-								</ul>		
-						</div>
-						<div class="linkfoot">
-							Liens utiles
-							<ul>
-								<li><a class="black" href="annuaireagence.com">annuaireagence.com</a></li>
-								<li><a class="black" href="annuairemarketing.com">annuairemarketing.com</a></li>
-								<li><a class="black" href="annuairewordpress.com">annuairewordpress.com</a></li>
-								<li><a class="black" href="listeagence.com">listeagence.com</a></li>
-							</ul>
-						</div>
+					<div class="footer-link white">
+						<p class="white txt-foot">Nos partenaires :</p>
+						<p><a class="white txt-foot" href="voiture.com">voiture.com /</a></p>
+						<p><a class="white txt-foot"  href="pizza.com">pizza.com /</a></p></li>
+						<p><a class="white txt-foot" href="matoiture.com">matoiture.com /</a></p></li>
+						<p><a class="white txt-foot" href="immobilierseo.com">immobilierseo.com</a></p>
 					</div>
 				</div>
 			</div>
